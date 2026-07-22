@@ -2,6 +2,8 @@
 
 Line added to test pipeline
 
+test2
+
 This repository holds **version 1.2** of the Sparta Tic Tac Toe app (Node.js 20). The app source lives, uncompressed, in the [`app/`](./app) folder at the root of the repo.
 
 ## Purpose
