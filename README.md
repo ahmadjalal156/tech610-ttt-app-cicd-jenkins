@@ -1,5 +1,7 @@
 # tech610-ttt-app-cicd-jenkins
 
+Line added to test pipeline
+
 This repository holds **version 1.2** of the Sparta Tic Tac Toe app (Node.js 20). The app source lives, uncompressed, in the [`app/`](./app) folder at the root of the repo.
 
 ## Purpose
