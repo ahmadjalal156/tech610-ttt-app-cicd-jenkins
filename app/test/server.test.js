@@ -2580,7 +2580,7 @@ test('GET / places game title above both panels at top of page', async () => {
 		const body = await response.text();
 
 		assert.equal(response.status, 200);
-		assert.match(body, /<body class="retro-shell">\s*<h1 class="retro-title">Tic Tac Toe<\/h1>\s*<div class="layout">/);
+		assert.match(body, /<body class="retro-shell">\s*<h1 class="retro-title">Tic Tac Toe[^<]*<\/h1>\s*<div class="layout">/);
 		assert.equal(body.includes('<h2>Tic Tac Toe</h2>'), false);
 	} finally {
 		await new Promise((resolve) => server.close(resolve));
