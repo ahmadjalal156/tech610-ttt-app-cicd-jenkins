@@ -18,7 +18,7 @@
 8. [Job 2: CI merge](#job-2-ci-merge)
 9. [Other ways to make Job 2 work](#other-ways-to-make-job-2-work)
 10. [Blockers hit and how they were solved](#blockers-hit-and-how-they-were-solved)
-11. [Screenshots](#screenshots)
+
 
 ---
 
@@ -283,13 +283,3 @@ Jenkins runs on an EC2 instance set to **UTC**, while the local machine is on **
 
 ---
 
-## Screenshots
-
-*To be added.*
-
-1. Job 1 build history showing a green build triggered by a GitHub push
-2. Job 1 console output showing the tests passing
-3. Job 2 config screen showing **Merge before build** and **Git Publisher**
-4. Job 2 green build, with the console line confirming the merge
-5. GitHub repo on the **main** branch showing the merged commit and updated commit count
-6. GitHub webhook **Recent Deliveries** showing a successful delivery
