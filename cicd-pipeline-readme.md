@@ -21,7 +21,6 @@
 11. [The EC2 instance](#the-ec2-instance)
 12. [Blockers hit and how they were solved](#blockers-hit-and-how-they-were-solved)
 13. [Testing the pipeline](#testing-the-pipeline)
-14. [Screenshots](#screenshots)
 
 ---
 
@@ -406,18 +405,3 @@ The pipeline was tested by repeatedly changing the frontpage timestamp on the de
 Running this several times confirmed the pipeline redeploys reliably, which is the point: a developer can push a change and trust it reaches production automatically, without any manual steps.
 
 ---
-
-## Screenshots
-
-*To be added.*
-
-1. Job 1 build history showing a green build triggered by a GitHub push
-2. Job 1 console output showing the tests passing
-3. Job 2 config screen showing **Merge before build** and **Git Publisher**
-4. GitHub repo on the **main** branch showing the merged commit
-5. Job 3 config showing **SSH Agent** and the Execute shell rsync step
-6. Job 3 console output showing the rsync transfer and the pm2 restart
-7. All three jobs green on the Jenkins dashboard, in sequence
-8. The frontpage on EC2 showing the updated timestamp (change 1)
-9. The frontpage on EC2 showing a later timestamp (change 2), proving repeated reliable deploys
-10. GitHub webhook **Recent Deliveries** showing a successful delivery
